@@ -1,0 +1,15 @@
+allow recovery apk_private_data_file:dir { getattr open read };
+allow recovery app_data_file:dir { getattr open read };
+allow recovery app_data_file:file getattr;
+allow recovery bluetooth_data_file:file getattr;
+allow recovery bluetooth_logs_data_file:dir { getattr open read };
+allow recovery bootchart_data_file:dir { getattr open read };
+allow recovery default_prop:property_service set;
+allow recovery keystore_data_file:dir { getattr open read };
+allow recovery media_rw_data_file:dir { add_name write };
+allow recovery media_rw_data_file:file { create getattr open read relabelfrom relabelto setattr write };
+allow recovery shell_data_file:dir { getattr open read };
+allow recovery sysfs_vibrator:file { open write };
+allow recovery system_data_file:dir { open read };
+allow recovery system_data_file:file open;
+allow recovery system_radio_prop:property_service set;

@@ -58,3 +58,6 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/huawei/hi6250/include
+
+# SELinux Policies
+BOARD_SEPOLICY_DIRS := device/huawei/hi6250/sepolicy
