@@ -1,2 +1,2 @@
-allow hwservicemanager rootfs:file entrypoint;
+allow hwservicemanager rootfs:file { entrypoint read };
 

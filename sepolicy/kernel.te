@@ -1,3 +1,4 @@
 allow kernel block_device:dir search;
 allow kernel device:dir write;
 allow kernel recovery:fd use;
+allow kernel self:capability mknod;
