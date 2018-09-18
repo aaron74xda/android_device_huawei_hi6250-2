@@ -65,7 +65,6 @@ TARGET_SPECIFIC_HEADER_PATH := device/huawei/hi6250/include
 
 # SELinux Policies
 BOARD_SEPOLICY_DIRS := device/huawei/hi6250/sepolicy
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # Logging
 TWRP_INCLUDE_LOGCAT := true
