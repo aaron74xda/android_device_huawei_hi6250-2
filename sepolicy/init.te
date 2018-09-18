@@ -3,3 +3,4 @@ allow init configfs:lnk_file create;
 allow init functionfs:dir mounton;
 allow init sysfs_android_usb:dir write;
 allow init kernel:system module_request;
+allow init rootfs:file create;
